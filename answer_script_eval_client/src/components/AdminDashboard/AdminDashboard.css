@@ -1,0 +1,41 @@
+AdminDashboard.css
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.button-container {
+  position: relative;
+  top: 20px;
+  /* left: 31%; */
+  /* transform: translateX(-50%); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.button {
+  background: #5D3587;
+  color: white;
+  padding: 80px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+  margin: 30px;
+  font-size: 16px;
+}

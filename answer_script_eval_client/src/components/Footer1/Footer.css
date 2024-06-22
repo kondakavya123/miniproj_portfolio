@@ -1,0 +1,25 @@
+.footer-container {
+    position: sticky;
+    background: #5D3587;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: white;
+    /* margin-top: 28%; */
+    padding: 10px;
+  
+    
+  }
+  
+  .college-info {
+    padding: 10px;
+  }
+  
+  .college{
+    font-size: 18px;
+    margin-left: 35%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+  }

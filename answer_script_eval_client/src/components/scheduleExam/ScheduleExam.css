@@ -1,0 +1,69 @@
+/* ScheduleExam.css */
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300&family=Montserrat:wght@300&display=swap');
+
+
+.schedule-exam-wrapper {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #E5E1DA; /* Set background color for the component */
+}
+
+.ant-form-item-label {
+  font-family: 'Merriweather', serif;
+}
+
+
+.header {
+  text-align: center;
+  background-color: #5D3587;
+  color: #fff;
+  padding: 16px;
+  margin-bottom: 16px;
+  font-family: 'Merriweather', sans-serif;
+}
+
+
+
+.footer {
+  text-align: center;
+  background-color: #5D3587;
+  color: #fff;
+  padding: 8px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Button color */
+.ant-btn {
+  background-color: #5D3587;
+  border-color: #5D3587;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+}
+
+/* Add these styles in your component's CSS file or use a style tag in your component */
+
+/* Optional: Add some spacing between form items */
+.ant-row {
+  margin-bottom: 16px;
+}
+
+/* Optional: Center the form on the page */
+.ant-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Optional: Style the divider */
+.ant-divider-inner-text {
+  font-weight: bold;
+}
+
+/* Optional: Style the add supply students button */
+.add-supply-btn {
+  width: 100%;
+  margin-bottom: 16px;
+}

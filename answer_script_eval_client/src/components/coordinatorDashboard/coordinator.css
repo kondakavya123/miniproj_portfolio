@@ -1,0 +1,49 @@
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dropdown {
+  margin: 0 10px;
+  width: 50%;
+
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.dropdown-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.custom-card {
+/* width: 800px;
+height: 400px;  */
+border-radius: 15px; 
+border: 2px solid #5D3587; 
+padding: 16px;
+display: flex;
+flex-direction: column;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+background-color: #E5E1DA; 
+}
+
+.sheduled-exam-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+.custom-card {
+  width: 90%; 
+}
+}

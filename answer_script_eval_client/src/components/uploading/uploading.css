@@ -1,0 +1,73 @@
+.upload-container {
+  background-color: #e5e1da;
+  border: 1px solid #d9d9d9;
+  padding: 16px;
+  width: 100%;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.form-field-full-width {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 16px; 
+}
+
+
+.add-button {
+  margin-top: 16px;
+  background-color: #5d3587; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.question-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+
+.remove-button {
+  color:white;
+  background-color:#5d3587 ;
+  font-family: 'Merriweather', serif;
+}
+
+
+.space-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 16px;
+  margin-left: 40%;
+}
+
+
+.submit-button{
+  background-color: #d87942;
+  color: white;
+  justify-content: end;
+}
+
+
+.cancel-button {
+  background-color: #5d3587;
+  color: white;
+  justify-content: end;
+}
+
+
+.cancel-button {
+  background-color: #d9d9d9;
+  color: #333;
+}

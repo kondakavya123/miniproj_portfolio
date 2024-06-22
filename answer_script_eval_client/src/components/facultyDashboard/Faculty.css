@@ -1,0 +1,65 @@
+  
+  .center-container {
+    width: 99%;  
+  }
+  
+  .faculty-verification-container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-container {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .verification-text {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .table-container {
+    width: 200%;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    outline: 2px solid #5D3587;
+    max-height: 400px; 
+    overflow-y: auto; 
+    
+  }
+  
+  .ant-table {
+    width: 100%;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #5D3587;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .ant-table-tbody > tr > td {
+    background-color: #E5E1DA;
+  }
+  
+  .ant-table-tbody > tr:hover > td {
+    background-color: #E5E1DA;
+  }
+  
+  .ant-table-tbody > tr > td,
+  .ant-table-thead > tr > th {
+    text-align: center;
+    padding: 12px;
+  }
+  
+  .ant-btn-primary {
+    background-color: #5D3587;
+    border-color: #5D3587;
+  }
+  
+  .ant-dropdown-menu-item {
+    color: #5D3587;
+  }

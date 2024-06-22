@@ -1,0 +1,213 @@
+.college-info-wrapper {
+    position: sticky;
+    top: 0;
+    background: #5D3587;
+    padding: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+    
+  .college-loc {
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: right; /* Align the text to the right */
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 30px;
+    flex-grow: 24;
+    margin-right: 60px; /* Add some right margin for spacing */
+    text-decoration: underline; /* Add underline to the text */
+  }
+  
+  
+    .demo-logo {
+      width: 100px; 
+      height: 120px; 
+      background:#5D3587 url("./Jnclogo.png") no-repeat center center;
+      background-size: cover; 
+      border-radius: 8px; 
+    }
+    .college-info {
+      text-align: center;
+      padding-top: 5px; 
+      font-family: 'Sans-serif'; 
+      flex-grow: 1; 
+      margin-left: 20px; 
+      background-color: #5D3587;
+      color: white !important;
+    }
+    
+    .college-info p {
+      margin: 0;
+      text-align: left; 
+    }
+      
+    .college-name {
+      font-family: 'Merriweather', serif;
+      font-size: 25px;
+      font-weight: bold;     
+    }
+      
+    .college-location {
+      font-size: 15px;
+      font-family: 'Merriweather', serif;
+    }
+      
+    .college-postgraduate {
+      font-family: 'Merriweather', serif;
+      font-size: 20px;
+    }
+    
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+     
+    .ant-menu-item {
+      background-color:#5D3587;
+    }
+        
+    .ant-menu-item-selected, .ant-menu-item-selected:hover {
+      background-color: #5D3587;
+      color: #FFFFFF;
+    }  
+    /* .ant-menu-item, .ant-menu-item-selected {
+      color: #001F3F; 
+    } */
+      
+    nav {
+       
+     position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;  
+      width: 100%;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);    
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+    .title {
+      font-size: 1.5rem;
+      margin: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      cursor: default;     
+    }
+    .nav-link {
+      text-decoration: none;
+      color: white;
+      margin: 14.2px;
+      font-size: 18px;
+    }
+    
+    
+    nav a {
+      text-decoration: none;
+      color: white;
+      /* margin: 0 0.5rem; */
+     
+    }
+    
+    nav title:not(.active):hover {
+      background-color: #5D3587;
+    }
+    
+    .header-items {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .header-items li .departments-submenu {
+      display: none; 
+      position: absolute;   
+    }
+    
+    
+    .ant-menu-submenu-title {
+      background-color: #008EFF !important;
+      color: black !important; 
+    }
+    
+    .ant-menu-submenu-title:hover {
+      background-color: white !important;
+      color: black !important;
+    }
+    
+    .ant-menu-submenu {
+      background-color: #008EFF !important; 
+    }
+    
+    .header-items li:hover .departments-submenu {
+      display: block !important;
+    }
+    
+    #main-content {
+      margin-top: 1400px; 
+      padding: 20px;
+       
+    }
+    .action-buttons {
+      display: flex;
+      align-items: center;
+    }
+    
+    .logout-button {
+      margin-right: 10px;
+      padding: 8px 12px;
+      background-color: white; /* Tomato color */
+      color: #5D3587;
+      border: none;
+      cursor: pointer;
+      text-align: right;
+    }
+  
+    .home-button {
+      margin-right: 10px;
+      padding: 8px 12px;
+      background-color: white; /* Tomato color */
+      color: #5D3587;
+      border: none;
+      cursor: pointer;
+      text-align: right;
+      font-family: 'Merriweather', serif;
+    }
+    
+    .feedback-notification {
+      display: flex;
+      align-items: center;
+      font-family: 'Merriweather', serif;
+    }
+    
+    .notification-icon {
+      margin-right:12px;
+      color: white;
+      font-weight: bold;
+    }
+    
+    .notification-text {
+      margin-right:12px;
+      font-weight: bold;
+      color:white; /* Green color */
+    
+    }
+  
+    .college-loc {
+      font-size: 25px;
+      color: #FFFFFF;
+      text-align: center;
+      font-family: 'Merriweather', serif;
+      font-weight: bold;
+      font-size: 30px;
+      flex-grow:24;
+    }
